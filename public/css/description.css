@@ -1,0 +1,21 @@
+.type{
+	width: 600px;
+	height: 350px;
+	background-color:#3662B7;
+	text-align: center;
+	display: inline-block;
+	margin: 20px 20px 20px 20px;
+	color: #FFE4F2;
+}
+
+p{
+	text-align: center;
+	color: #FFF;
+}
+
+/*#types{
+	width: 1500px;
+	height:1000px;
+	margin-right: auto;
+	margin-left: auto;
+}*/

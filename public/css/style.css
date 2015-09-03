@@ -1,0 +1,95 @@
+body{
+	background-color: #fff;
+}
+
+#me{
+width:570px;
+height:630px;
+font-size: 14px;
+background-color: #C0D5EA;
+margin-left: auto;
+margin-right: auto;
+padding: 20px 20px 20px 20px;
+}
+
+#others{
+width:570px;
+height:630px;
+font-size: 14px;
+background-color: #fff;
+margin-left: auto;
+margin-right: auto;
+padding: 20px 20px 20px 20px;
+}
+
+#mePicks{
+	width:570px;
+	height:120px;
+	text-align: center;
+	background-color: #C0D5EA;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#otherPicks{
+	width:570px;
+	height:120px;
+	text-align: center;
+	background-color: #fff;
+	margin-right: auto;
+	margin-left: auto;
+}
+input{
+	width:50px;
+}
+
+.title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.warning{
+	font-weight: bold;
+	font-size: 14pt;
+	text-align: center;
+}
+
+.description{
+	text-align: center;
+}
+
+.canvasContainer{
+	text-align:center;
+	width:100%;
+}
+#graph{
+	width: 570px;
+	height: 400px;
+	display: inline;
+	/*margin-right: auto;
+	margin-left: auto;*/
+}
+
+#finalBtn{
+	color: #fff;
+	background-color: #2B49AF;
+	width: 200px;
+	height: 30px;
+}
+#yourType{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: none;
+	font-size: 24pt;
+}
+#description{
+	margin: 20px 20px 20px 20px;
+	color: #fff;
+	background-color: #2B49AF;
+	width: 200px;
+	height: 30px;
+}

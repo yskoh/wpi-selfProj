@@ -1,0 +1,115 @@
+body{
+	background-color: #C0D5EA;
+}
+*{
+	color: #fff;
+}
+/*#wrapper{
+	 margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+
+}*/
+ol {
+	/*list-style-type:none;
+	margin:0;
+	padding:0;*/
+}
+li{
+	/*position:relative;*/
+	padding: 5px;
+	background-color: #151E87;
+	border: 2px solid #C0D5EA;
+	border-radius: 5px;
+	height: 30px;
+	line-height: 30px;
+	width: 430px;
+	 margin-left: auto;
+    margin-right: auto;
+
+}
+
+li span {
+	margin-left: 30px;
+}
+
+.selection {
+	position: absolute;
+	top:0;
+	right:0;
+	height:100%;
+	line-height:40px;
+	background:-webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 100%);
+	padding:0 5px 0 40px;
+}
+
+.selected{
+	background-color: #5D53D0;
+}
+
+.firstPick{
+}
+
+.secondPick{
+
+}
+
+.thirdPick{
+
+}
+
+#nextBtn{
+	padding:5px;
+	text-align: center;
+	width:150px;
+	height:50px;
+	background-color: #5D53D0;
+	color: #fff;
+}
+
+#selectionsBox{
+	position: absolute;
+	z-index:10;
+	top:68%;
+	left: 27%;
+	width:440px;
+	height:40px;
+	line-height: 40px;
+	background-color:#5D53D0;
+}
+.title{
+	font-size: 30px;
+	text-align: center;
+	/*margin:0 auto;*/
+}
+#titleWrapper{
+	position: relative;
+	 margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+	text-align: center;
+
+}
+#btnAlign{
+	width:150px;
+	height:30px;
+	margin: 0 auto;
+}
+#description{
+	background-color: #5D53D0;
+	width:150px;
+	height:30px;
+}
+
+#graph{
+	width: 570px;
+	height: 400px;
+	display: inline;
+	margin-left: -200px;
+}
+/*////*/
+section.success {
+  color: #2B49AF;
+  background: #C0D5EA;
+  height: 1600px;
+}

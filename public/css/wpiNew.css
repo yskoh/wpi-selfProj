@@ -1,0 +1,298 @@
+html,body{
+	height: 100%;
+}
+body{
+	background-color: #C0D5EA;
+}
+*{
+	color: #151E87;
+}
+
+ol {
+	position:relative;
+	margin:0 auto;
+	padding-top: 42px;
+}
+
+ol li{
+	padding: 5px;
+	background-color: #fff;
+	border: 2px solid #C0D5EA;
+	border-radius: 5px;
+	height: 40px;
+	line-height: 30px;
+	width: 430px;
+	 margin-left: auto;
+    margin-right: auto;
+    color: #151E87;
+}
+
+li span {
+	margin-left: 30px;
+}
+
+/*.selection {
+	position: absolute;
+	top:0;
+	right:0;
+	height:100%;
+	line-height:40px;
+	background:-webkit-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 100%);
+	padding:0 5px 0 40px;
+}*/
+
+.selected{
+	background-color: #E8E4E5;
+}
+
+#nextBtn, #submitBtn{
+	padding:5px;
+	text-align: center;
+	width:150px;
+	height:50px;
+	background-color: #E8E4E5;
+	color: #151E87;
+}
+
+#selectionsBox, #selectionsBox2{
+	width:100%;
+	height:100%;
+	z-index:10;
+	line-height: 40px;
+	background-color:#E8E4E5;
+}
+
+#selectionsCopy, #selectionsCopy2{
+	display: none;
+}
+
+#boxContainer{
+	padding-left: 40px;
+	position: fixed;
+	left:0;
+	right:0;
+	margin: 0 auto;
+	width:440px;
+	height:40px;
+	z-index:10;	
+}
+
+.title{
+	font-size: 30px;
+	text-align: center;
+}
+#titleWrapper{
+	padding-top: 50px;
+	 margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+	text-align: center;
+
+}
+#graphContainer{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	background-color: rgba(0,0,0,.5);
+	display:none;
+}
+
+#description{
+	background-color: #5D53D0;
+	width:150px;
+	height:30px;
+	z-index: 5;
+	position:absolute;
+	top:30%;
+	left:38%;
+	/*margin: 0 auto;*/
+}
+
+.canvasContainer{
+	position:relative;
+	background-color:#fff;
+	max-width:50%;
+	padding:0;
+	/*height같은거. 패딩은 width에 맞춰 */
+	/*padding-bottom:70.1754%;*/
+	padding-bottom: 35%;
+  	margin: 0 auto;
+}
+
+
+#graph{
+	position:absolute;
+	top:0; left:0;
+	width: 100% !important;
+	height: 100% !important;
+}
+/*card flip*/
+/*.card-container{
+	perspective: 1000;
+	/*width:50%;
+	height:100%;
+	overflow:hidden;
+	position: relative;
+}
+*/
+.card{
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+	position:relative;
+	/*height:100%;*/
+	height:1200px;
+	margin:0 auto;
+	/**/
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+	min-width: 200px;
+	max-width: 500px;
+}
+.flipped {
+	-webkit-transform: rotateY(180deg);
+}
+/*///////////////////////////////////////*/
+
+.front, .back{
+	position:absolute;
+	-webkit-backface-visibility: hidden;
+	/*perspective: 1000;*/
+	top:0;
+	left:0;
+	width:100%;
+	height:100%;
+	/*height:1500px;*/
+	z-index: 1;
+}
+
+/*.front{
+	backface-visibility: hidden;
+}
+.back{
+	backface-visibility: hidden;
+	z-index:10;
+}*/
+.back{
+	/*2번 돌리는 것. 돌리고 z-index로 올리고 다시 돌리고*/
+	-webkit-transform: rotateY(180deg);
+	z-index:10;
+}
+/*bootstrap이랑 같이 이용하기 위헤;;*/
+
+.card{
+	margin: 0 auto;
+}
+span.name{
+	color: #fff;
+}
+
+.title{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-size: 16pt;
+	font-weight: bold;
+	text-align: center;
+}
+
+.container{
+	margin:0 auto;
+	text-align: center;
+}
+
+div.footer-col, div.footer-col p, div.col-lg-12{
+	color:#fff;
+}
+
+/*///*/
+/*section.success {
+  color: #2B49AF;
+  #C0D5EA
+  background: red;
+  height: 1600px;
+  width:100%;
+}*/
+
+@media screen and (max-width:480px) {
+
+	#titleWrapper{
+	padding-top: 0px;
+	/* margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+	text-align: center;*/
+
+	}
+	section.success{
+		background-color: #C0D5EA;
+	  	height: 1600px;
+	  	width:100%;
+	}
+
+	.card{
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+	position:relative;
+	/*height:100%;*/
+	height:1200px;
+	/*
+	margin:0 auto;
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+	*/
+	width:100%;
+/*	min-width: 200px;
+	max-width: 500px;*/
+}
+
+	ol li{
+		padding: 2px;
+		background-color: #fff;
+		border: 2px solid #C0D5EA;
+		border-radius: 5px;
+		height: auto;
+		line-height: 30px;
+		width: 92%;
+	/*	margin-left: auto;
+	    margin-right: auto;*/
+	    color: #151E87;
+	}
+
+	#graphContainer{
+		position:fixed;
+		top:120px;
+		left:0;
+		width:100%;
+		height:100%;
+		background-color: rgba(0,0,0,.5);
+		display:none;
+	}
+
+	.canvasContainer{
+	position:relative;
+	background-color:#fff;
+	max-width:100%;
+	height:50%;
+	bottom:5%;
+	padding:0;
+	/*height같은거. 패딩은 width에 맞춰 */
+	/*padding-bottom:70.1754%;*/
+	padding-bottom: 35%;
+  	margin: 0 auto;
+	}
+
+	#description{
+	background-color: #5D53D0;
+	width:150px;
+	height:30px;
+	z-index: 5;
+	position:absolute;
+	left:30%;
+	bottom:5%;
+	/*margin: 0 auto;*/
+	}
+
+}

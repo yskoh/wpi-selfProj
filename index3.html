@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=100%, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>WPI Personality type<a href="/"></a></title>
+    
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="/lib/startbootstrap-wpi/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="/lib/startbootstrap-wpi/css/freelancer.css" rel="stylesheet">
+    <!-- Custom Fonts -->
+    <link href="/lib/startbootstrap-wpi/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href="http://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="css/wpiNew.css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top" class="index">
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#page-top">wpi personality type</a>
+            </div>
+          <!--   <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#register">Register</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#checklist">checklist</a>
+                    </li>
+                </ul>
+            </div> -->
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <img class="img-responsive" src="img/profile.png" alt="">
+                    <div class="intro-text">
+                        <span class="name">wpi personality type</span>
+                        <hr class="star-light">
+                        <span class="skills"></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Portfolio Grid Section -->
+<form method= "post" action="/api/v1/user/click">
+    <section id="register">
+        <div class="container">
+          <div class= "form-group">
+            <label for='name'>NAME</label>
+            <input id='name' name="name" type="text" placeholder="input name here"/>
+            <br>
+            <label for='email'>EMAIL</label>
+            <input id='email' name="email" type="email" placeholder="input email here"/>
+        </div>
+        </div>
+    </section>
+
+    <!-- Checklist Section -->
+    <section class="success" id="checklist">
+        <div class= "card" id="test">
+            <div class="front">
+                <div id="titleWrapper">        
+                    <div class='title'>내가 생각하는 나</div>
+                    <div class='description'>자신의 성격을 가장 잘 나타내는 문항을 순서대로 기입하여 주세요. <br>꼭!! 순서대로 1순위 3개, 2순위 4개, 3순위 5개 골라주세요 </div>
+                </div>
+                <div class="contentsContainer">
+                    <div id="boxContainer">
+                        <div id="selectionsBox" name="selectionsBox"></div>
+                        <input id="selectionsCopy" name="selectionsCopy" type="text"/>   
+                    </div>
+                    <ol data-type="1">    
+                        <li>주로 다른 사람들 얘기를 조용히 듣는 편이다.<span></span></li>
+                        <li>때때로 수줍어하며 내성적이다. <span></span></li>
+                        <li>외향적이며 사교성도 풍부하다. <span></span></li>
+                        <li>상상력이 풍부하다. <span></span></li>
+                        <li>다른 사람들이 떠들어도 내 일에 몰두할 수 있다. <span></span></li>
+                        <li> 다른 사람들과 협력하기를 좋아한다.<span></span></li>
+                        <li>잘 모르는 사람들 앞에서는 긴장하는 경향이 있다.<span></span></li>
+                        <li>새로운 사람을 만나면 그 사람에게 관심을 갖는 편이다.<span></span></li>
+                        <li>예술, 음악, 문학 분야에 나름 조예가 깊다.<span></span></li>
+                        <li>계획에 변동이 생기면 초조해진다.<span></span></li>
+                        <li>혼자보다는 다른 사람과 같이 일하는 것이 더 좋다.<span></span></li>
+                        <li>걱정이 많다.<span></span></li>
+                        <li>자주 미소 짓는다.<span></span></li>
+                        <li>창의력이 풍부하다.<span></span></li>
+                        <li>어디에 몰입하면 여간해서 주의가 흐트러지지 않는다.<span></span></li>
+                        <li>일을 하거나 시킬 때 세세한 사항들을 다 체크하는 편이다.<span></span></li>
+                        <li>쉽게 긴장하곤 한다.<span></span></li>
+                        <li>사려깊고 거의 모든 이들에게 친절한 사람이다.<span></span></li>
+                        <li>다양하고 새로운 의견들이 창출되는 모임을 선호한다. <span></span></li>
+                        <li>하던 일을 끝마칠 때까지 계속 해서 한다. <span></span></li>
+                        <li>냉담하고 쌀쌀하기도 하다.<span></span></li>
+                        <li>자연경관에 감탄하거나 그 속에 빠진 나 자신을 상상하곤 한다.<span></span></li>
+                        <li>새로운 사람을 만나는 것을 즐기는 편이다.<span></span></li>
+                        <li>대체로 행복하다.<span></span></li>
+                        <li>에너지가 넘친다.<span></span></li>
+                        <li>정서적으로 안정적이며 쉽게 언짢아하지 않는다.<span></span></li>
+                        <li>말수가 적으며 수줍음이 있는 편이다.<span></span></li>
+                        <li>효율적으로 일한다.<span></span></li>
+                        <li>하루에도 기분이 여러번 바뀐다.<span></span></li>
+                        <li>쉽게 신경질을 낸다.<span></span></li>
+                    </ol>
+                    <button id='nextBtn'>NEXT</button>
+                </div>
+            </div> 
+            <div class="back">
+                <div id="titleWrapper">        
+                    <div class='title'>다른 사람이 보는 나</div>
+                    <div class='description'>주변 사람들이 나를 생각할 때, 나의 성격을 가장 잘 나타내는 문항을 1순위 3개, 2순위 4개, 3순위 5개를 순위대로 골라주세요. <br>다른 사람이 아니라, '본인'이 직접 작성하는 부분입니다!</div>
+                </div>
+                <br><br><br>
+                <div class="contentsContainer">
+                    <div id="boxContainer">
+                        <div id="selectionsBox2" name="selectionsBox2"></div>
+                        <input id="selectionsCopy2" name="selectionsCopy2" type="text"/>
+                    </div>
+                    <ol data-type="2">
+                        <li>외향적이며 사교성도 풍부하다.<span></span></li>
+                        <li>대체로 조용하다. <span></span></li>
+                        <li>냉담하고 쌀쌀하기도 하다.<span></span></li>
+                        <li>효율적으로 일한다. <span></span></li>
+                        <li>내가 어떤 사람인지 다른 사람은 쉽게 파악하기 힘들 것이다. <span></span></li>
+                        <li>에너지가 넘친다. <span></span></li>
+                        <li>주로 다른 사람들 애기를 조용히 듣는 편이다. <span></span></li>
+                        <li>걱정이 많다. <span></span></li>
+                        <li>다른 사람이 떠들어도 내 일에 몰두할 수 있다. <span></span></li>
+                        <li>다른 사람의 피드백과 상관없이 내가 뜻한대로 일을 진행하는 편이다. <span></span></li>
+                        <li>의욕이 넘친다. <span></span></li>
+                        <li>다른 사람을 너그러이 용서하는 편이다. <span></span></li>
+                        <li>쉽게 긴장하곤 한다. <span></span></li>
+                        <li>창의력이 풍부하다. <span></span></li>
+                        <li>예술적, 미적 경험에 가치를 둔다. <span></span></li>
+                        <li>새로운 사람들을 만나는 것을 즐기는 편이다. <span></span></li>
+                        <li>하던 일을 끝마칠 때까지 계속해서 한다. <span></span></li>
+                        <li>비교적 일이 잘못되지 않을가 걱정하는 편이다. <span></span></li>
+                        <li>쉬지 않고 계속 움직이는 편이다. <span></span></li>
+                        <li>상상력이 풍부하다. <span></span></li>
+                        <li>자주 미소 짓는다.<span></span></li>
+                        <li>다른 사람들과 협력하기를 좋아한다.<span></span></li>  
+                        <li>다른 사람과 논쟁을 할 때 쉽게 흥분하는 편이다. <span></span></li>
+                        <li>어디에 몰입하면 여간해서 주의가 흐트러지지 않는다. <span></span></li>
+                        <li>예술, 음악, 문학 분야에 나름 조예가 깊다. <span></span></li>
+                        <li>새로운 사람을 만나면 그 사람에게 관심을 갖는 편이다.<span></span></li>
+                        <li>정서적으로 안정적이며 쉽게 언짢아하지 않는다. <span></span></li>
+                        <li>나만의 결점을 찾아내는 경향이 있다. <span></span></li>
+                        <li>어떤 것에 한 번 과심을가지면 모든 정보를 탐독한다. <span></span></li>
+                        <li>간혹 체계적이지 못하다. <span></span></li>
+                    </ol>
+                     <button id='submitBtn'>SUBMIT</button>
+                </div>
+            </div>
+        </div>  
+    </section>
+</form>
+
+    <!-- Result Section -->
+    <div id="graphContainer">
+        <div class="canvasContainer">
+        <canvas id="graph"></canvas>
+        <button id='description' onclick=window.location.href='/description'>DESCRIPTION</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Location</h3>
+                        <p>Village 2 Seat 73</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>created by Yeslie</h3>
+                       <!--  <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-facebook"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-google-plus"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-linkedin"></i></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><i class="fa fa-fw fa-dribbble"></i></a>
+                            </li>
+                        </ul> -->
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>About WPI</h3>
+                        <p>WPI is a personality test created by Dr.Sangmin Whang<br><a href="http://www.wisdomcenter.co.kr">visit WisdomCenter</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        Copyright &copy; Yeslie 2015
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="/lib/Chart.js"></script>
+    <script type="text/javascript" src="js/wpiLogicNew4forGit.js"></script>
+    <!-- jQuery -->
+    <script src="/lib/startbootstrap-wpi/js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/lib/startbootstrap-wpi/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="/lib/startbootstrap-wpi/js/classie.js"></script>
+    <script src="/lib/startbootstrap-wpi/js/cbpAnimatedHeader.js"></script>
+
+    <!-- Contact Form JavaScript -->
+    <script src="/lib/startbootstrap-wpi/js/jqBootstrapValidation.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="/lib/startbootstrap-wpi/js/freelancer.js"></script>
+
+</body>
+
+</html>
